@@ -34,6 +34,14 @@ def analyze_code(code: str, language: str) -> dict:
     4. **Scoring**: Rate the code 0-100 based on clean code principles.
 
     You MUST output valid JSON matching the exact schema below.
+    You must output ONLY valid JSON. No backticks, no markdown, no code blocks, no comments.
+    Every string must be escaped properly.
+
+    No multiline strings (convert all newlines to \n).
+
+    No backticks anywhere in the output.
+
+    No "...```java..." or code fences inside description fields.
     {format_instructions}
     """
 
