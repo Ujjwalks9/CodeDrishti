@@ -20,7 +20,7 @@ This project demonstrates end-to-end integration of **Generative AI (LLMs)** ins
 
 ---
 
-##  Demo & Walkthrough
+##  Demo & Walkthrough 
 
 
 
@@ -182,4 +182,5 @@ npm run dev
 ### If you like this project, consider giving it a star on GitHub!
 
 *Built with ❤️ using Spring Boot, Next.js & Generative AI.*
+
 
